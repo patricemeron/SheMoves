@@ -7,35 +7,14 @@ const instructors = [
   {
     name: 'Ali',
     title: 'Femme Sultry Beginner',
-    time: 'May 30 · 4:30PM – 6:00PM',
+    time: 'June 20 · 5:30PM – 7:00PM',
     genre: 'Femme Sultry Beginner',
-    song: 'Ego by Beyoncé',
+    song: 'Kiss it Better by Rihanna',
     bio: 'Ali leads the first session of the day with a sultry, feminine beginner choreography that helps you own your energy and move with intention. Expect sensual, confident movement in a fully judgment-free space.',
     quote: '"This class is for every woman who has ever held back. Tonight, we let go."',
     tags: ['Femme Sultry', 'Beginner', 'Beyoncé Vibes', '4:30PM – 6:00PM'],
     photo: aliPhoto,
   },
-  {
-    name: 'Chen',
-    title: 'Femme Groove Beginner',
-    time: 'May 30 · 6:00PM – 7:30PM',
-    genre: 'Femme Groove Beginner',
-    song: 'Love Sex Magic by Ciara ft. Justin Timberlake',
-    bio: 'Chen brings the groove in the second session — a fun, upbeat beginner choreography rooted in femme energy and feel-good movement. Perfect for women who want to feel the rhythm and just have a good time.',
-    quote: '"Dancing is less about technique and more about feeling free in your own body."',
-    tags: ['Femme Groove', 'Beginner', 'Ciara Vibes', '6:00PM – 7:30PM'],
-    photo: chenPhoto,
-  },
-]
-
-const bannerItems = [
-  { icon: '📅', text: 'Date TBD · Saturday' },
-  { icon: '🕑', text: '2PM – 5PM' },
-  { icon: '📍', text: 'Venue TBD' },
-  { icon: '🎵', text: "90s–2000s Playlist" },
-  { icon: '✨', text: 'All Skill Levels' },
-  { icon: '👥', text: 'Limited 15 Slots' },
-  { icon: '🎟️', text: 'P350 Registration' },
 ]
 
 const expectItems = [
@@ -138,7 +117,7 @@ export default function App() {
       {/* ── INSTRUCTOR ── */}
       <div className="instructor-wrap">
         <div className="section">
-          <span className="section-label">Your Instructors</span>
+          <span className="section-label">Your Instructor</span>
           <div className="instructors-grid">
             {instructors.map((inst) => (
               <div className="instructor-card" key={inst.name}>
@@ -193,7 +172,7 @@ export default function App() {
             <p className="section-body">
               Slots are limited to 15 participants per class. Secure your spot now and join an unforgettable afternoon of dance, music, and connection.
             </p>
-            <a href="https://forms.gle/y79w82dkrGaey9Co7" target="_blank" rel="noopener noreferrer" className="btn-primary">Reserve My Slot Now</a>
+            <a href="https://forms.gle/WNaNDPUpyb5PzGmy9" target="_blank" rel="noopener noreferrer" className="btn-primary">Reserve My Slot Now</a>
             <p className="gc-invite">
               Teasers are posted in our GC and you are welcome to join. ☺️{' '}
               <a href="https://ig.me/j/Abau4BdjeSu--DcM/" target="_blank" rel="noopener noreferrer">Join here</a>
